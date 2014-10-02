@@ -20,12 +20,12 @@ public class FindLongestString {
 		@Override
 		public boolean equals(Object obj) {
 			if (!(obj instanceof Node))
-	            return false;
-	        if (obj == this)
-	            return true;
+	            		return false;
+	        	if (obj == this)
+	            	return true;
 	
-	        Node rhs = (Node) obj;
-	        return ((this.start == rhs.start) && (this.end == rhs.end));
+	        	Node rhs = (Node) obj;
+	        	return ((this.start == rhs.start) && (this.end == rhs.end));
 		}
 	
 		//Prime numbers in hashcode to minimise collision
