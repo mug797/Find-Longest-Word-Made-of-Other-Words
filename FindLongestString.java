@@ -22,7 +22,7 @@ public class FindLongestString {
 			if (!(obj instanceof Node))
 	            		return false;
 	        	if (obj == this)
-	            	return true;
+	            		return true;
 	
 	        	Node rhs = (Node) obj;
 	        	return ((this.start == rhs.start) && (this.end == rhs.end));
